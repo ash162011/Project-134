@@ -1,0 +1,23 @@
+body{
+     background:url("https://i.pinimg.com/originals/8d/07/17/8d071780a6a321da5ebdd3353113ccaf.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.heading{
+     width: 100%;
+     font-family:"Fredoka One";
+     font-size:20px;
+     padding: 10px;
+}
+
+canvas{
+     animation-name: hi;
+     animation-iteration-count: infinite;
+     animation-duration:2s;
+}
+
+@keyframes hi {
+     from{box-shadow:1px 1px 38px black;}
+     to{box-shadow: 1px 1px 38px gray;}
+}
